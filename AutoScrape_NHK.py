@@ -18,34 +18,6 @@ response.encoding = response.apparent_encoding
 doc = BeautifulSoup(response.text, 'html.parser')
 
 
-# In[3]:
-
-
-# doc.prettify
-
-
-# In[4]:
-
-
-# titles = doc.select('.title')
-# for title in titles:
-#     print(title.text.strip())
-
-
-# In[5]:
-
-
-# times = doc.select('time')
-# for time in times:
-#     print(time.text.strip())
-
-
-# In[6]:
-
-
-# tags = doc.select('.i-word')
-# for tag in tags:
-#     print(tag.text.strip())
 
 
 # In[7]:
@@ -98,16 +70,5 @@ df
 
 
 df.to_csv('nhk-latest20news.csv')
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
