@@ -69,6 +69,6 @@ df
 # In[11]:
 
 
-df.to_csv('nhk-latest20news.csv')
+df.to_csv('nhk-latest20news.csv',index=False)
 
 
